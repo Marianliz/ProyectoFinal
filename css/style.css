@@ -20,4 +20,17 @@ form {
     margin: 3;
     box-sizing: border-box;
   }
-  
+  button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #4CAF50;
+    border-radius: 15px;
+  }
+  button:hover {background-color: #00dd07}
+  button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
